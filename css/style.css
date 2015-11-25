@@ -1,0 +1,18 @@
+html {
+	text-align: center;
+}
+
+#instructions ul, li {
+	list-style-type: decimal;
+}
+
+#instructions {
+	width:800px;
+	margin:auto;
+	text-align:left;
+}
+
+#strongtext {
+	text-decoration: underline;
+	font-size: 18px;
+}

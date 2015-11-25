@@ -1,0 +1,1233 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+	<title>Docs For Class simple_html_dom</title>
+	<link rel="stylesheet" type="text/css" id="layout" href="../media/layout.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="../media/style.css" media="all">
+	<link rel="stylesheet" type="text/css" href="../media/print.css" media="print">
+        <meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+</head>
+
+<body>
+<div id="header">
+	<div id="navLinks">
+        
+                                    
+                            	        [ <a href="../classtrees_default.html">Class Tree: default</a> ]
+            [ <a href="../elementindex_default.html">Index: default</a> ]
+        		[ <a href="../elementindex.html">All elements</a> ]		
+	</div>
+	<div id="packagePosition">
+		<div id="packageTitle2">default</div>
+		<div id="packageTitle">default</div>
+		<div id="elementPath"> &middot; </div>
+	</div>
+</div>
+
+<div id="nav" class="small">
+	<div id="packages">
+		Packages:
+					<p><a href="../li_default.html">default</a></p>
+			</div>
+
+				<div id="index">
+			<div id="files">
+								Files:<br>
+								<a href="../default/_about.php.html">		about.php
+		</a><br>
+			<a href="../default/_content.php.html">		content.php
+		</a><br>
+			<a href="../default/_db.php.html">		db.php
+		</a><br>
+			<a href="../default/_FaceDetector.php.html">		FaceDetector.php
+		</a><br>
+			<a href="../default/_footer.php.html">		footer.php
+		</a><br>
+			<a href="../default/_head.php.html">		head.php
+		</a><br>
+			<a href="../default/_index.php.html">		index.php
+		</a><br>
+			<a href="../default/_instructions.php.html">		instructions.php
+		</a><br>
+			<a href="../default/_simple_html_dom.php.html">		simple_html_dom.php
+		</a><br>
+				</div>
+			<div id="interfaces">
+							</div>
+			<div id="classes">
+				Classes:<br>
+								<a href="../default/FaceDetector.html">		FaceDetector
+		</a><br>
+			<a href="../default/simple_html_dom.html">		simple_html_dom
+		</a><br>
+			<a href="../default/simple_html_dom_node.html">		simple_html_dom_node
+		</a><br>
+				</div>
+		</div>
+	</div>
+
+<div id="body">
+	    		<h1>Class: simple_html_dom</h1>
+	<p style="margin: 0px;">Source Location: /simple_html_dom.php</p>
+	
+
+<div class="leftcol">
+	<h3><a href="#class_details">Class Overview</a> <span class="smalllinenumber">[line 481]</span></h3>
+	<div id="classTree"><pre></pre>
+</div>
+	<div class="small">
+	<p></p>
+		<h4>Author(s):</h4>
+	<ul>
+			</ul>
+	<h4>Version:</h4>
+	<ul>
+			</ul>
+
+	<h4>Copyright:</h4>
+	<ul>
+			</li>
+	</div>
+</div>
+
+<div class="middlecol">
+	<h3><a href="#class_vars">Variables</a></h3>
+	<ul class="small">
+				<li><a href="../default/simple_html_dom.html#var$block_tags">$block_tags</a></li>
+				<li><a href="../default/simple_html_dom.html#var$callback">$callback</a></li>
+				<li><a href="../default/simple_html_dom.html#var$char">$char</a></li>
+				<li><a href="../default/simple_html_dom.html#var$cursor">$cursor</a></li>
+				<li><a href="../default/simple_html_dom.html#var$doc">$doc</a></li>
+				<li><a href="../default/simple_html_dom.html#var$lowercase">$lowercase</a></li>
+				<li><a href="../default/simple_html_dom.html#var$nodes">$nodes</a></li>
+				<li><a href="../default/simple_html_dom.html#var$noise">$noise</a></li>
+				<li><a href="../default/simple_html_dom.html#var$optional_closing_tags">$optional_closing_tags</a></li>
+				<li><a href="../default/simple_html_dom.html#var$parent">$parent</a></li>
+				<li><a href="../default/simple_html_dom.html#var$pos">$pos</a></li>
+				<li><a href="../default/simple_html_dom.html#var$root">$root</a></li>
+				<li><a href="../default/simple_html_dom.html#var$self_closing_tags">$self_closing_tags</a></li>
+				<li><a href="../default/simple_html_dom.html#var$size">$size</a></li>
+				<li><a href="../default/simple_html_dom.html#var$token_attr">$token_attr</a></li>
+				<li><a href="../default/simple_html_dom.html#var$token_blank">$token_blank</a></li>
+				<li><a href="../default/simple_html_dom.html#var$token_equal">$token_equal</a></li>
+				<li><a href="../default/simple_html_dom.html#var$token_slash">$token_slash</a></li>
+			</ul>
+	<h3><a href="#class_consts">Constants</a></h3>
+	<ul class="small">
+			</ul>
+</div>
+<div class="rightcol">
+	<h3><a href="#class_methods">Methods</a></h3>
+	<ul class="small">
+				<li><a href="../default/simple_html_dom.html#method__construct">__construct</a></li>
+				<li><a href="../default/simple_html_dom.html#method__destruct">__destruct</a></li>
+				<li><a href="../default/simple_html_dom.html#methodas_text_node">as_text_node</a></li>
+				<li><a href="../default/simple_html_dom.html#methodchildNodes">childNodes</a></li>
+				<li><a href="../default/simple_html_dom.html#methodclear">clear</a></li>
+				<li><a href="../default/simple_html_dom.html#methodcopy_skip">copy_skip</a></li>
+				<li><a href="../default/simple_html_dom.html#methodcopy_until">copy_until</a></li>
+				<li><a href="../default/simple_html_dom.html#methodcopy_until_char">copy_until_char</a></li>
+				<li><a href="../default/simple_html_dom.html#methodcopy_until_char_escape">copy_until_char_escape</a></li>
+				<li><a href="../default/simple_html_dom.html#methoddump">dump</a></li>
+				<li><a href="../default/simple_html_dom.html#methodfind">find</a></li>
+				<li><a href="../default/simple_html_dom.html#methodfirstChild">firstChild</a></li>
+				<li><a href="../default/simple_html_dom.html#methodgetElementById">getElementById</a></li>
+				<li><a href="../default/simple_html_dom.html#methodgetElementByTagName">getElementByTagName</a></li>
+				<li><a href="../default/simple_html_dom.html#methodgetElementsById">getElementsById</a></li>
+				<li><a href="../default/simple_html_dom.html#methodgetElementsByTagName">getElementsByTagName</a></li>
+				<li><a href="../default/simple_html_dom.html#methodlastChild">lastChild</a></li>
+				<li><a href="../default/simple_html_dom.html#methodlink_nodes">link_nodes</a></li>
+				<li><a href="../default/simple_html_dom.html#methodload">load</a></li>
+				<li><a href="../default/simple_html_dom.html#methodloadFile">loadFile</a></li>
+				<li><a href="../default/simple_html_dom.html#methodload_file">load_file</a></li>
+				<li><a href="../default/simple_html_dom.html#methodparse">parse</a></li>
+				<li><a href="../default/simple_html_dom.html#methodparse_attr">parse_attr</a></li>
+				<li><a href="../default/simple_html_dom.html#methodprepare">prepare</a></li>
+				<li><a href="../default/simple_html_dom.html#methodread_tag">read_tag</a></li>
+				<li><a href="../default/simple_html_dom.html#methodremove_callback">remove_callback</a></li>
+				<li><a href="../default/simple_html_dom.html#methodremove_noise">remove_noise</a></li>
+				<li><a href="../default/simple_html_dom.html#methodrestore_noise">restore_noise</a></li>
+				<li><a href="../default/simple_html_dom.html#methodsave">save</a></li>
+				<li><a href="../default/simple_html_dom.html#methodset_callback">set_callback</a></li>
+				<li><a href="../default/simple_html_dom.html#methodskip">skip</a></li>
+				<li><a href="../default/simple_html_dom.html#method__get">__get</a></li>
+				<li><a href="../default/simple_html_dom.html#method__toString">__toString</a></li>
+			</ul>
+</div>
+
+<div id="content">
+<hr>
+	<div class="contents">
+	</div>
+
+	<div class="leftCol">
+    	<h2>Inherited Variables</h2>
+		<h2>Inherited Constants</h2>
+		</div>
+
+	<div class="rightCol">
+	<h2>Inherited Methods</h2>
+		</div>
+	<br clear="all">
+	<hr>
+
+	<a name="class_details"></a>
+	<h2>Class Details</h2>
+		<p class="small" style="color: #334B66;">[ <a href="#top">Top</a> ]</p>
+
+	<hr>
+	<a name="class_vars"></a>
+	<h2>Class Variables</h2>
+		<a name="var$block_tags"></a>
+	<p></p>
+	<h4>$block_tags = <span class="value">array('root'=&gt;1,&nbsp;'body'=&gt;1,&nbsp;'form'=&gt;1,&nbsp;'div'=&gt;1,&nbsp;'span'=&gt;1,&nbsp;'table'=&gt;1)</span></h4>
+	<div class="indent">
+		<p class="linenumber">[line 499]</p>
+		<h4>Tags:</h4>
+<ul>
+	<li><b>access</b> - protected</li>
+</ul>
+		<p><b>Type:</b> mixed</p>
+		<p><b>Overrides:</b> </p>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="var$callback"></a>
+	<p></p>
+	<h4>$callback = <span class="value">&nbsp;null</span></h4>
+	<div class="indent">
+		<p class="linenumber">[line 484]</p>
+		<h4>Tags:</h4>
+<ul>
+	<li><b>access</b> - public</li>
+</ul>
+		<p><b>Type:</b> mixed</p>
+		<p><b>Overrides:</b> </p>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="var$char"></a>
+	<p></p>
+	<h4>$char</h4>
+	<div class="indent">
+		<p class="linenumber">[line 488]</p>
+		<h4>Tags:</h4>
+<ul>
+	<li><b>access</b> - protected</li>
+</ul>
+		<p><b>Type:</b> mixed</p>
+		<p><b>Overrides:</b> </p>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="var$cursor"></a>
+	<p></p>
+	<h4>$cursor</h4>
+	<div class="indent">
+		<p class="linenumber">[line 490]</p>
+		<h4>Tags:</h4>
+<ul>
+	<li><b>access</b> - protected</li>
+</ul>
+		<p><b>Type:</b> mixed</p>
+		<p><b>Overrides:</b> </p>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="var$doc"></a>
+	<p></p>
+	<h4>$doc</h4>
+	<div class="indent">
+		<p class="linenumber">[line 487]</p>
+		<h4>Tags:</h4>
+<ul>
+	<li><b>access</b> - protected</li>
+</ul>
+		<p><b>Type:</b> mixed</p>
+		<p><b>Overrides:</b> </p>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="var$lowercase"></a>
+	<p></p>
+	<h4>$lowercase = <span class="value">&nbsp;false</span></h4>
+	<div class="indent">
+		<p class="linenumber">[line 485]</p>
+		<h4>Tags:</h4>
+<ul>
+	<li><b>access</b> - public</li>
+</ul>
+		<p><b>Type:</b> mixed</p>
+		<p><b>Overrides:</b> </p>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="var$nodes"></a>
+	<p></p>
+	<h4>$nodes = <span class="value">array()</span></h4>
+	<div class="indent">
+		<p class="linenumber">[line 483]</p>
+		<h4>Tags:</h4>
+<ul>
+	<li><b>access</b> - public</li>
+</ul>
+		<p><b>Type:</b> mixed</p>
+		<p><b>Overrides:</b> </p>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="var$noise"></a>
+	<p></p>
+	<h4>$noise = <span class="value">array()</span></h4>
+	<div class="indent">
+		<p class="linenumber">[line 492]</p>
+		<h4>Tags:</h4>
+<ul>
+	<li><b>access</b> - protected</li>
+</ul>
+		<p><b>Type:</b> mixed</p>
+		<p><b>Overrides:</b> </p>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="var$optional_closing_tags"></a>
+	<p></p>
+	<h4>$optional_closing_tags = <span class="value">array(<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'tr'=&gt;array('tr'=&gt;1,&nbsp;'td'=&gt;1,&nbsp;'th'=&gt;1),'th'=&gt;array('th'=&gt;1),'td'=&gt;array('td'=&gt;1),'li'=&gt;array('li'=&gt;1),'dt'=&gt;array('dt'=&gt;1,'dd'=&gt;1),'dd'=&gt;array('dd'=&gt;1,'dt'=&gt;1),'dl'=&gt;array('dd'=&gt;1,'dt'=&gt;1),'p'=&gt;array('p'=&gt;1),'nobr'=&gt;array('nobr'=&gt;1),)</span></h4>
+	<div class="indent">
+		<p class="linenumber">[line 500]</p>
+		<h4>Tags:</h4>
+<ul>
+	<li><b>access</b> - protected</li>
+</ul>
+		<p><b>Type:</b> mixed</p>
+		<p><b>Overrides:</b> </p>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="var$parent"></a>
+	<p></p>
+	<h4>$parent</h4>
+	<div class="indent">
+		<p class="linenumber">[line 491]</p>
+		<h4>Tags:</h4>
+<ul>
+	<li><b>access</b> - protected</li>
+</ul>
+		<p><b>Type:</b> mixed</p>
+		<p><b>Overrides:</b> </p>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="var$pos"></a>
+	<p></p>
+	<h4>$pos</h4>
+	<div class="indent">
+		<p class="linenumber">[line 486]</p>
+		<h4>Tags:</h4>
+<ul>
+	<li><b>access</b> - protected</li>
+</ul>
+		<p><b>Type:</b> mixed</p>
+		<p><b>Overrides:</b> </p>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="var$root"></a>
+	<p></p>
+	<h4>$root = <span class="value">&nbsp;null</span></h4>
+	<div class="indent">
+		<p class="linenumber">[line 482]</p>
+		<h4>Tags:</h4>
+<ul>
+	<li><b>access</b> - public</li>
+</ul>
+		<p><b>Type:</b> mixed</p>
+		<p><b>Overrides:</b> </p>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="var$self_closing_tags"></a>
+	<p></p>
+	<h4>$self_closing_tags = <span class="value">array('img'=&gt;1,&nbsp;'br'=&gt;1,&nbsp;'input'=&gt;1,&nbsp;'meta'=&gt;1,&nbsp;'link'=&gt;1,&nbsp;'hr'=&gt;1,&nbsp;'base'=&gt;1,&nbsp;'embed'=&gt;1,&nbsp;'spacer'=&gt;1)</span></h4>
+	<div class="indent">
+		<p class="linenumber">[line 498]</p>
+		<h4>Tags:</h4>
+<ul>
+	<li><b>access</b> - protected</li>
+</ul>
+		<p><b>Type:</b> mixed</p>
+		<p><b>Overrides:</b> </p>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="var$size"></a>
+	<p></p>
+	<h4>$size</h4>
+	<div class="indent">
+		<p class="linenumber">[line 489]</p>
+		<h4>Tags:</h4>
+<ul>
+	<li><b>access</b> - protected</li>
+</ul>
+		<p><b>Type:</b> mixed</p>
+		<p><b>Overrides:</b> </p>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="var$token_attr"></a>
+	<p></p>
+	<h4>$token_attr = <span class="value">&nbsp;'&nbsp;&gt;'</span></h4>
+	<div class="indent">
+		<p class="linenumber">[line 496]</p>
+		<h4>Tags:</h4>
+<ul>
+	<li><b>access</b> - protected</li>
+</ul>
+		<p><b>Type:</b> mixed</p>
+		<p><b>Overrides:</b> </p>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="var$token_blank"></a>
+	<p></p>
+	<h4>$token_blank = <span class="value">&nbsp;&quot;&nbsp;\t\r\n&quot;</span></h4>
+	<div class="indent">
+		<p class="linenumber">[line 493]</p>
+		<h4>Tags:</h4>
+<ul>
+	<li><b>access</b> - protected</li>
+</ul>
+		<p><b>Type:</b> mixed</p>
+		<p><b>Overrides:</b> </p>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="var$token_equal"></a>
+	<p></p>
+	<h4>$token_equal = <span class="value">&nbsp;'&nbsp;=/&gt;'</span></h4>
+	<div class="indent">
+		<p class="linenumber">[line 494]</p>
+		<h4>Tags:</h4>
+<ul>
+	<li><b>access</b> - protected</li>
+</ul>
+		<p><b>Type:</b> mixed</p>
+		<p><b>Overrides:</b> </p>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="var$token_slash"></a>
+	<p></p>
+	<h4>$token_slash = <span class="value">&nbsp;&quot;&nbsp;/&gt;\r\n\t&quot;</span></h4>
+	<div class="indent">
+		<p class="linenumber">[line 495]</p>
+		<h4>Tags:</h4>
+<ul>
+	<li><b>access</b> - protected</li>
+</ul>
+		<p><b>Type:</b> mixed</p>
+		<p><b>Overrides:</b> </p>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+
+	<hr>
+	<a name="class_methods"></a>
+	<h2>Class Methods</h2>
+	
+	<a name="method__construct"></a>
+	<p></p>
+	<h3>__construct</h3>
+	<div class="indent">
+		<p>
+		<code>simple_html_dom __construct(
+[
+$str = null])</code>
+		</p>
+	
+		<p class="linenumber">[line 512]</p>
+				
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type"></span>
+		<b>$str</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="method__destruct"></a>
+	<p></p>
+	<h3>__destruct</h3>
+	<div class="indent">
+		<p>
+		<code>void __destruct(
+)</code>
+		</p>
+	
+		<p class="linenumber">[line 521]</p>
+				
+	
+	<h4>Parameters:</h4>
+	<ul>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodas_text_node"></a>
+	<p></p>
+	<h3>as_text_node</h3>
+	<div class="indent">
+		<p>
+		<code>void as_text_node(
+
+$tag)</code>
+		</p>
+	
+		<p class="linenumber">[line 853]</p>
+		<h4>Tags:</h4>
+<ul>
+	<li><b>access</b> - protected</li>
+</ul>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type"></span>
+		<b>$tag</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodchildNodes"></a>
+	<p></p>
+	<h3>childNodes</h3>
+	<div class="indent">
+		<p>
+		<code>void childNodes(
+[
+$idx = -1])</code>
+		</p>
+	
+		<p class="linenumber">[line 966]</p>
+				
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type"></span>
+		<b>$idx</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodclear"></a>
+	<p></p>
+	<h3>clear</h3>
+	<div class="indent">
+		<p>
+		<code>void clear(
+)</code>
+		</p>
+	
+		<p class="linenumber">[line 581]</p>
+				
+	
+	<h4>Parameters:</h4>
+	<ul>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodcopy_skip"></a>
+	<p></p>
+	<h3>copy_skip</h3>
+	<div class="indent">
+		<p>
+		<code>void copy_skip(
+
+$chars)</code>
+		</p>
+	
+		<p class="linenumber">[line 867]</p>
+		<h4>Tags:</h4>
+<ul>
+	<li><b>access</b> - protected</li>
+</ul>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type"></span>
+		<b>$chars</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodcopy_until"></a>
+	<p></p>
+	<h3>copy_until</h3>
+	<div class="indent">
+		<p>
+		<code>void copy_until(
+
+$chars)</code>
+		</p>
+	
+		<p class="linenumber">[line 876]</p>
+		<h4>Tags:</h4>
+<ul>
+	<li><b>access</b> - protected</li>
+</ul>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type"></span>
+		<b>$chars</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodcopy_until_char"></a>
+	<p></p>
+	<h3>copy_until_char</h3>
+	<div class="indent">
+		<p>
+		<code>void copy_until_char(
+
+$char)</code>
+		</p>
+	
+		<p class="linenumber">[line 884]</p>
+		<h4>Tags:</h4>
+<ul>
+	<li><b>access</b> - protected</li>
+</ul>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type"></span>
+		<b>$char</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodcopy_until_char_escape"></a>
+	<p></p>
+	<h3>copy_until_char_escape</h3>
+	<div class="indent">
+		<p>
+		<code>void copy_until_char_escape(
+
+$char)</code>
+		</p>
+	
+		<p class="linenumber">[line 901]</p>
+		<h4>Tags:</h4>
+<ul>
+	<li><b>access</b> - protected</li>
+</ul>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type"></span>
+		<b>$char</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methoddump"></a>
+	<p></p>
+	<h3>dump</h3>
+	<div class="indent">
+		<p>
+		<code>void dump(
+[
+$show_attr = true])</code>
+		</p>
+	
+		<p class="linenumber">[line 589]</p>
+				
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type"></span>
+		<b>$show_attr</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodfind"></a>
+	<p></p>
+	<h3>find</h3>
+	<div class="indent">
+		<p>
+		<code>void find(
+
+$selector, [
+$idx = null])</code>
+		</p>
+	
+		<p class="linenumber">[line 576]</p>
+				
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type"></span>
+		<b>$selector</b> 
+		- 
+		</li>
+			<li>
+		<span class="type"></span>
+		<b>$idx</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodfirstChild"></a>
+	<p></p>
+	<h3>firstChild</h3>
+	<div class="indent">
+		<p>
+		<code>void firstChild(
+)</code>
+		</p>
+	
+		<p class="linenumber">[line 967]</p>
+				
+	
+	<h4>Parameters:</h4>
+	<ul>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodgetElementById"></a>
+	<p></p>
+	<h3>getElementById</h3>
+	<div class="indent">
+		<p>
+		<code>void getElementById(
+
+$id)</code>
+		</p>
+	
+		<p class="linenumber">[line 969]</p>
+				
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type"></span>
+		<b>$id</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodgetElementByTagName"></a>
+	<p></p>
+	<h3>getElementByTagName</h3>
+	<div class="indent">
+		<p>
+		<code>void getElementByTagName(
+
+$name)</code>
+		</p>
+	
+		<p class="linenumber">[line 971]</p>
+				
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type"></span>
+		<b>$name</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodgetElementsById"></a>
+	<p></p>
+	<h3>getElementsById</h3>
+	<div class="indent">
+		<p>
+		<code>void getElementsById(
+
+$id, [
+$idx = null])</code>
+		</p>
+	
+		<p class="linenumber">[line 970]</p>
+				
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type"></span>
+		<b>$id</b> 
+		- 
+		</li>
+			<li>
+		<span class="type"></span>
+		<b>$idx</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodgetElementsByTagName"></a>
+	<p></p>
+	<h3>getElementsByTagName</h3>
+	<div class="indent">
+		<p>
+		<code>void getElementsByTagName(
+
+$name, [
+$idx = -1])</code>
+		</p>
+	
+		<p class="linenumber">[line 972]</p>
+				
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type"></span>
+		<b>$name</b> 
+		- 
+		</li>
+			<li>
+		<span class="type"></span>
+		<b>$idx</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodlastChild"></a>
+	<p></p>
+	<h3>lastChild</h3>
+	<div class="indent">
+		<p>
+		<code>void lastChild(
+)</code>
+		</p>
+	
+		<p class="linenumber">[line 968]</p>
+				
+	
+	<h4>Parameters:</h4>
+	<ul>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodlink_nodes"></a>
+	<p></p>
+	<h3>link_nodes</h3>
+	<div class="indent">
+		<p>
+		<code>void link_nodes(
+
+&$node, 
+$is_child)</code>
+		</p>
+	
+		<p class="linenumber">[line 845]</p>
+		<h4>Tags:</h4>
+<ul>
+	<li><b>access</b> - protected</li>
+</ul>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type"></span>
+		<b>&$node</b> 
+		- 
+		</li>
+			<li>
+		<span class="type"></span>
+		<b>$is_child</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodload"></a>
+	<p></p>
+	<h3>load</h3>
+	<div class="indent">
+		<p>
+		<code>void load(
+
+$str, [
+$lowercase = true])</code>
+		</p>
+	
+		<p class="linenumber">[line 526]</p>
+				
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type"></span>
+		<b>$str</b> 
+		- 
+		</li>
+			<li>
+		<span class="type"></span>
+		<b>$lowercase</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodloadFile"></a>
+	<p></p>
+	<h3>loadFile</h3>
+	<div class="indent">
+		<p>
+		<code>void loadFile(
+)</code>
+		</p>
+	
+		<p class="linenumber">[line 973]</p>
+				
+	
+	<h4>Parameters:</h4>
+	<ul>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodload_file"></a>
+	<p></p>
+	<h3>load_file</h3>
+	<div class="indent">
+		<p>
+		<code>void load_file(
+)</code>
+		</p>
+	
+		<p class="linenumber">[line 553]</p>
+				
+	
+	<h4>Parameters:</h4>
+	<ul>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodparse"></a>
+	<p></p>
+	<h3>parse</h3>
+	<div class="indent">
+		<p>
+		<code>void parse(
+)</code>
+		</p>
+	
+		<p class="linenumber">[line 613]</p>
+		<h4>Tags:</h4>
+<ul>
+	<li><b>access</b> - protected</li>
+</ul>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodparse_attr"></a>
+	<p></p>
+	<h3>parse_attr</h3>
+	<div class="indent">
+		<p>
+		<code>void parse_attr(
+
+$node, 
+$name, 
+&$space)</code>
+		</p>
+	
+		<p class="linenumber">[line 823]</p>
+		<h4>Tags:</h4>
+<ul>
+	<li><b>access</b> - protected</li>
+</ul>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type"></span>
+		<b>$node</b> 
+		- 
+		</li>
+			<li>
+		<span class="type"></span>
+		<b>$name</b> 
+		- 
+		</li>
+			<li>
+		<span class="type"></span>
+		<b>&$space</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodprepare"></a>
+	<p></p>
+	<h3>prepare</h3>
+	<div class="indent">
+		<p>
+		<code>void prepare(
+
+$str, [
+$lowercase = true])</code>
+		</p>
+	
+		<p class="linenumber">[line 594]</p>
+		<h4>Tags:</h4>
+<ul>
+	<li><b>access</b> - protected</li>
+</ul>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type"></span>
+		<b>$str</b> 
+		- 
+		</li>
+			<li>
+		<span class="type"></span>
+		<b>$lowercase</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodread_tag"></a>
+	<p></p>
+	<h3>read_tag</h3>
+	<div class="indent">
+		<p>
+		<code>void read_tag(
+)</code>
+		</p>
+	
+		<p class="linenumber">[line 626]</p>
+		<h4>Tags:</h4>
+<ul>
+	<li><b>access</b> - protected</li>
+</ul>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodremove_callback"></a>
+	<p></p>
+	<h3>remove_callback</h3>
+	<div class="indent">
+		<p>
+		<code>void remove_callback(
+)</code>
+		</p>
+	
+		<p class="linenumber">[line 564]</p>
+				
+	
+	<h4>Parameters:</h4>
+	<ul>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodremove_noise"></a>
+	<p></p>
+	<h3>remove_noise</h3>
+	<div class="indent">
+		<p>
+		<code>void remove_noise(
+
+$pattern, [
+$remove_tag = false])</code>
+		</p>
+	
+		<p class="linenumber">[line 928]</p>
+		<h4>Tags:</h4>
+<ul>
+	<li><b>access</b> - protected</li>
+</ul>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type"></span>
+		<b>$pattern</b> 
+		- 
+		</li>
+			<li>
+		<span class="type"></span>
+		<b>$remove_tag</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodrestore_noise"></a>
+	<p></p>
+	<h3>restore_noise</h3>
+	<div class="indent">
+		<p>
+		<code>void restore_noise(
+
+$text)</code>
+		</p>
+	
+		<p class="linenumber">[line 944]</p>
+				
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type"></span>
+		<b>$text</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodsave"></a>
+	<p></p>
+	<h3>save</h3>
+	<div class="indent">
+		<p>
+		<code>void save(
+[
+$filepath = ''])</code>
+		</p>
+	
+		<p class="linenumber">[line 569]</p>
+				
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type"></span>
+		<b>$filepath</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodset_callback"></a>
+	<p></p>
+	<h3>set_callback</h3>
+	<div class="indent">
+		<p>
+		<code>void set_callback(
+
+$function_name)</code>
+		</p>
+	
+		<p class="linenumber">[line 559]</p>
+				
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type"></span>
+		<b>$function_name</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodskip"></a>
+	<p></p>
+	<h3>skip</h3>
+	<div class="indent">
+		<p>
+		<code>void skip(
+
+$chars)</code>
+		</p>
+	
+		<p class="linenumber">[line 862]</p>
+		<h4>Tags:</h4>
+<ul>
+	<li><b>access</b> - protected</li>
+</ul>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type"></span>
+		<b>$chars</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="method__get"></a>
+	<p></p>
+	<h3>__get</h3>
+	<div class="indent">
+		<p>
+		<code>void __get(
+
+$name)</code>
+		</p>
+	
+		<p class="linenumber">[line 957]</p>
+				
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type"></span>
+		<b>$name</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="method__toString"></a>
+	<p></p>
+	<h3>__toString</h3>
+	<div class="indent">
+		<p>
+		<code>void __toString(
+)</code>
+		</p>
+	
+		<p class="linenumber">[line 953]</p>
+				
+	
+	<h4>Parameters:</h4>
+	<ul>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+
+	<hr>
+	<a name="class_consts"></a>
+	<h2>Class Constants</h2>
+	</div>
+	<div id="credit">
+		<hr>
+		Documentation generated on Tue, 24 Nov 2015 23:27:27 +0100 by <a href="http://www.phpdoc.org">phpDocumentor 1.4.3</a>
+	</div>
+</div>
+</body>
+</html>
