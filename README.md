@@ -5,7 +5,6 @@ Näotuvastuse rakendus on Ron Tõnnisoni poolt loodud rakendus Opuse proovitöö
 
 Rakendus laeb alla etteantud veebilehelt kõik pildid, mis ta leiab ning otsib igalt pildilt nägu. Kui rakendus tuvastab mõnel pildil näo, siis ta salvestab selle pildi URLi andmebaasi. Kui rakendus on lõpetanud kõikidelt piltidelt otsimise, siis ta kustutab kõi allalaetud pildid ära. Igal hetkel on võimalik lasta rakendusel kuvada kõik pildid, mis on andmebaasi salvestatud. Pilte saab järjest kuvada ka siis, kui rakendus parasjagu mõnelt veebilehelt allalaetud pilte alles kontrollib, kuid sel juhul ei anna rakendus teada, millal ta on lõpetanud kõikide piltide läbivaatamise.
 
-### Lisainfo ### Rakendus suudab järjest pilte kontrollida vaid kuni 30 minutit.
 
 NÕUDED
 ------
